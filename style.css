@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    transition: all 0.3s ease;
 }
 html{
     scroll-behavior: smooth;
@@ -22,6 +23,7 @@ body{
 }
 ::-webkit-scrollbar-thumb {
     background: #888;
+    transition: all 0.3s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -111,7 +113,7 @@ section .title::after{
     font-weight: 500;
     border-radius: 5px;
     padding: 5px 15px;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
 }
 .navbar .menu .menu-list-btn:hover{
     color: #fff;
@@ -127,7 +129,9 @@ section .title::after{
 }
 .navbar .menu .menu-ico-btn{
     fill: #fff;
+    margin-left: 5px;
     cursor: pointer;
+    transition: all 0.3s ease;
     padding: 7px 10px;
     padding-top: 13px;
 }
@@ -481,7 +485,7 @@ section .title::after{
     content: "what i provide";
 }
 .services .serv-content .card{
-    width: calc(45% - 20px);
+    width: calc(50% - 30px);
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -544,7 +548,8 @@ section .title::after{
     cursor: pointer;
     padding: 7px 10px;
     padding-top: 13px;
-    margin-left: 10px;
+    margin-left: 15px;
+    transition: all 0.3s ease;
 }
 .contact .contact-content .left #contact-icons-first{
     margin-left: 10px;
@@ -619,6 +624,18 @@ section .title::after{
   height: 45px;
   outline: none;
   font-size: 18px;
+  display: block;
+  width: 160px!important;
+  height: 45px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  background: #1a7da0;
+  border: 2px solid #1a7da0;
+  transition: all 0.3s ease;
   font-weight: 500;
   border-radius: 6px;
   cursor: pointer;
