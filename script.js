@@ -31,14 +31,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Graphic Designer", "Web Designer", "Freelancer"],
+        strings: ["Graphic Designer", "Web Designer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Graphic Designer", "Web Designer", "Freelancer"],
+        strings: ["Graphic Designer", "Web Designer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -48,8 +48,7 @@ $(document).ready(function(){
     $('.carousel').owlCarousel({
         margin: 600,
         loop: false,
-        autoplay: true,
-        autoplayTimeOut: 1000,
+        autoplay: false,
         autoplayHoverPause: true,
         responsive: {
             0:{
